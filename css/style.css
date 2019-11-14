@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+  #logo-vert {
+    display: none; } }
+:root {
+  --darker-green: rgb(3, 41, 42);
+  --lighter-green: rgb(7, 103, 102); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.site-wrapper {
+  max-width: 1280px;
+  padding-left: 0;
+  padding-right: 0;
+  width: auto; }
+
+#logo-vert {
+  position: relative;
+  top: 117px;
+  left: -150px; }
+
+header {
+  margin-bottom: 10px;
+  background-color: #022929; }
+  header .nav-link {
+    text-align: center;
+    padding: 4px 8px; }
+  header .navbar {
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: #022929; }
+    header .navbar ul li {
+      background-color: #066666;
+      margin: 0 2px;
+      padding: 0 22px; }
+  header .dropdown-menu {
+    background-color: #066666;
+    border-radius: 0; }
+    header .dropdown-menu hr {
+      background-color: rgba(255, 255, 255, 0.5);
+      height: 0.3px;
+      margin: 1px auto;
+      width: 95%; }
+    header .dropdown-menu .dropdown-item {
+      color: #fff; }
+    header .dropdown-menu .dropdown-item:hover {
+      background-color: #066666; }
+
+.main-content {
+  padding-left: 0;
+  padding-right: 0; }
+
+.main-container {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #1e3a3a; }
+  .main-container h1 {
+    color: #F3FEFD;
+    font-size: 50px;
+    padding: 10px 35px; }
+  .main-container #heading {
+    font-size: 46px;
+    border-bottom: 1.5px solid #000;
+    letter-spacing: 4px;
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px; }
+  .main-container p {
+    color: #F3FEFD; }
+
+.main-left-part {
+  border: 10px solid #066666;
+  margin: 0; }
+
+.main-right-part {
+  border: 10px solid #065252;
+  background-color: #022929;
+  padding: 10px 15px; }
+  .main-right-part #right-part-title {
+    text-transform: uppercase;
+    padding-left: 15px; }
+  .main-right-part .mail-container a {
+    padding-right: 5px; }
+  .main-right-part #subtitle {
+    margin-top: 43px;
+    text-transform: uppercase; }
+  .main-right-part #ux {
+    color: #F3FEFD;
+    text-decoration: underline; }
+  .main-right-part #redesign {
+    color: #F3FEFD;
+    text-decoration: underline; }
+  .main-right-part .carousel-content p {
+    text-transform: uppercase;
+    margin-top: 33px; }
+  .main-right-part .carousel-item img {
+    width: 100%; }
+
+footer {
+  background-color: #055252;
+  padding: 7px;
+  margin-top: 10px; }
+  footer .footer-left-part {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 60%;
+    padding: 10px; }
+  footer p {
+    color: #F3FEFD;
+    margin: 0; }
+  footer .footer-right-part {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 40%;
+    justify-content: space-around;
+    padding: 10px; }
+  footer a {
+    color: #F3FEFD;
+    text-decoration: underline; }
+
+/*# sourceMappingURL=style.css.map */

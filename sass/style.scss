@@ -1,0 +1,190 @@
+$sideBarBGColor : #022929;
+$nav-itemsBGColor : #066666;
+$main-BGColor: #1e3a3a;
+$rightColBorderColor: #055252;
+
+@media screen and (max-width: 768px) {
+
+  #logo-vert{
+  display: none;
+  }
+}
+
+:root {
+  --darker-green: rgb(3, 41, 42);
+  --lighter-green: rgb(7, 103, 102);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.site-wrapper{
+  max-width: 1280px;
+  padding-left: 0;
+  padding-right: 0;
+  width: auto;
+}
+
+#logo-vert{
+  position: relative;
+  top: 117px;
+  left: -150px;
+}
+
+header {
+
+
+  .nav-link {
+
+    text-align: center;
+    padding: 4px 8px;
+  }
+  margin-bottom: 10px;
+  background-color: $sideBarBGColor;
+
+  .navbar {
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: $sideBarBGColor;
+    ul {
+      li {
+        background-color: $nav-itemsBGColor;
+        margin: 0 2px;
+        padding: 0 22px;
+      }
+    }
+  }
+  .dropdown-menu {
+    background-color: $nav-itemsBGColor;
+    border-radius: 0;
+
+    hr {
+      background-color: rgba(255, 255, 255, .5);
+      height: 0.3px;
+      margin: 1px auto;
+      width: 95%;
+    }
+
+    .dropdown-item {
+      color: #fff;
+
+    }
+    .dropdown-item:hover {
+      background-color: $nav-itemsBGColor;
+    }
+
+  }
+}
+
+.main-content{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-container{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+  background-color: $main-BGColor;
+
+  h1{
+    color: #F3FEFD;
+    font-size: 50px;
+    padding: 10px 35px;
+  }
+
+  #heading{
+    font-size: 46px;
+    border-bottom: 1.5px solid #000;
+    letter-spacing: 4px;
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px
+  }
+
+  p{
+    color: #F3FEFD;
+    //padding: 0 30px;
+  }
+
+}
+
+.main-left-part{
+  border: 10px solid $nav-itemsBGColor;
+  margin: 0;
+}
+
+.main-right-part{
+  border: 10px solid rgb(6, 82, 82);
+  background-color: $sideBarBGColor;
+  padding: 10px 15px;
+
+  #right-part-title{
+    text-transform: uppercase;
+    padding-left: 15px;
+  }
+
+  .mail-container a{
+    padding-right: 5px;
+  }
+
+  #subtitle{
+    margin-top: 43px;
+    text-transform: uppercase;
+  }
+
+  #ux{
+    color: #F3FEFD;
+    text-decoration: underline;
+  }
+
+  #redesign{
+    color: #F3FEFD;
+    text-decoration: underline;
+  }
+
+ .carousel-content p{
+   text-transform: uppercase;
+   margin-top: 33px;
+ }
+
+  .carousel-item img{
+    width: 100%;
+  }
+}
+
+footer{
+  background-color: $rightColBorderColor;
+  padding: 7px;
+  margin-top: 10px;
+
+  .footer-left-part{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 60%;
+    padding: 10px;
+  }
+
+  p{
+    color: #F3FEFD;
+    margin: 0;
+  }
+
+  .footer-right-part{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 40%;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  a{
+    color: #F3FEFD;
+    text-decoration: underline;
+  }
+}
